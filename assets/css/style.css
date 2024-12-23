@@ -1,0 +1,71 @@
+/* assets/css/style.css */
+
+/* Reset or base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background: url('../images/dark_blue_sequence.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  /* Layout containers */
+  header, main, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  
+  /* Header */
+  header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Intro Section */
+  .intro {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .intro li {
+    margin: 0.5rem 0;
+  }
+  
+  .intro a {
+    color: #add8e6; /* LightBlue */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .intro a:hover {
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    opacity: 0.8;
+  }
+  
